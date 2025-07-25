@@ -1,13 +1,11 @@
 # FruitTracker — Real‑Time **Fruit** Recognition & Calorie Estimator  
 
-
 [Demo](FruitTracker-Demo.gif)
-
 
 ---
 
 ## 1 · What the project does
-**FruitTracker** is a MATLAB proof‑of‑concept that recognises six fruits—**apple, avocado, banana, cauliflower, corn🌽, potato🥔**—from a webcam feed (or a still image) and instantly returns their average calorie values.  
+**FruitTracker** is a MATLAB proof‑of‑concept that recognises six fruits—**apple, avocado, banana, cauliflower, corn🌽, potato🥔**—from a webcam feed (or a still image).  
 All heavy lifting happens inside MATLAB scripts:
 
 1. **Image pre‑processing** → centre‑crop & resize to 100 × 100 px grayscale.  
