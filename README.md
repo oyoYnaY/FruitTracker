@@ -1,8 +1,7 @@
 # FruitTracker — Real‑Time **Fruit** Recognition & Calorie Estimator  
 
-**Demo video**
-<video src="FruitTracker/FruitTracker%20Demo.mp4" controls width="640">
-</video>
+
+[Demo](FruitTracker-Demo.gif)
 
 
 ---
