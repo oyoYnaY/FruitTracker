@@ -60,16 +60,3 @@ trainNet.m handles data loading, network creation, training, and saves weights t
 > **Dependencies:** MATLAB R2022a + Image Processing Toolbox + Deep Learning Toolbox (no extra packages).
 
 ---
-
-## 5 · Quick start (MATLAB)
-
-matlab
-%% 1.  Prepare the data  (run once)
-rgb2Gray;                 % converts Fruits‑360 images ➜ data/<class>/...
-
-%% 2.  Train the network  (≈ 1 minute on CPU)
-trainNet;                 % writes models/net.mat
-% load('models/net.mat'); % uncomment to reuse pre‑trained weights
-
-%% 3.  Launch the GUI
-FruitTracker;             % open FruitTracker.mlapp 
