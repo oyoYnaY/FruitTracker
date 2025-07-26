@@ -10,7 +10,7 @@ All heavy lifting happens inside MATLAB scripts:
 
 1. **Image pre‑processing** → centre‑crop & resize to 100 × 100 px grayscale.  
 2. **Neural‑network inference** → 10 000‑input, 4‑hidden‑layer feed‑forward net.  
-3. **GUI rendering** → live camera preview, ROI selector, “Detect” button, predicted class & calorie read‑out.
+3. **GUI rendering** → live camera preview, ROI selector, “Detect” button, predicted class.
 
 The demo video shows the full workflow in action.
 
